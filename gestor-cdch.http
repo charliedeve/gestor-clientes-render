@@ -1,0 +1,6 @@
+@gestor_cdch_HostAddress = http://localhost:5068
+
+GET {{gestor_cdch_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
