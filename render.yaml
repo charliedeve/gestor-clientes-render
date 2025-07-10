@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: sportcenter-api
+    runtime: docker
+    repo: https://github.com/charliedeve/gestor-clientes-render
+    branch: main
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: gestor_cdch_db_user
+          property: connectionString

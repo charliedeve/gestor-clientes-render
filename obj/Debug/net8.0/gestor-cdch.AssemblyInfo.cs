@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gestor-cdch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+798a4b59a137cb6c442a2426fad4969d052cf2a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("gestor-cdch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gestor-cdch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
